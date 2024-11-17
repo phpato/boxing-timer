@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="app-container">
+    <Timer></Timer>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Timer from './components/Timer.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Timer
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.app-container {
+  height: 100vh;
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/rocky-4-fotogramas-4-1605714387.jpg?crop=1.00xw:0.876xh;0,0.0481xh&resize=2048:*');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif; /* Cambia la fuente según prefieras */
+  color: white; /* Color de texto por defecto */
 }
 </style>

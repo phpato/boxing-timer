@@ -2,9 +2,7 @@
 A free boxing-timer with Rocky inspiration, made with vue 3
 checkout THE DEMO !
 ## Project Demo
-```
-[npm install](https://phpato.github.io/boxing-timer/
-```
+https://phpato.github.io/boxing-timer/
 
 ## Project setup
 ```

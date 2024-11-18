@@ -1,4 +1,10 @@
 # boxing-timer
+A free boxing-timer with Rocky inspiration, made with vue 3
+checkout THE DEMO !
+## Project Demo
+```
+[npm install](https://phpato.github.io/boxing-timer/
+```
 
 ## Project setup
 ```
@@ -22,3 +28,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
